@@ -5,3 +5,5 @@ fn main() {
         .run(tauri::generate_context!())
         .expect("failed to run JoyLab Money OS");
 }
+
+// build-trigger: portable-exe-v1.0
