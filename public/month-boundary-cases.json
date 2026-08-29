@@ -1,0 +1,105 @@
+{
+  "cases": [
+    {
+      "budgets": {
+        "2026-08": 800000
+      },
+      "current": "2026-09",
+      "expected": 800000,
+      "fallback": 0,
+      "id": "MB-001",
+      "previous": "2026-08"
+    },
+    {
+      "budgets": {
+        "2026-08": 800000,
+        "2026-09": 750000
+      },
+      "current": "2026-09",
+      "expected": 750000,
+      "fallback": 0,
+      "id": "MB-002",
+      "previous": "2026-08"
+    },
+    {
+      "budgets": {},
+      "current": "2026-09",
+      "expected": 600000,
+      "fallback": 600000,
+      "id": "MB-003",
+      "previous": "2026-08"
+    },
+    {
+      "budgets": {
+        "2026-12": 900000
+      },
+      "current": "2027-01",
+      "expected": 900000,
+      "fallback": 0,
+      "id": "MB-004",
+      "previous": "2026-12"
+    },
+    {
+      "budgets": {
+        "2027-01": 850000
+      },
+      "current": "2027-01",
+      "expected": 850000,
+      "fallback": 700000,
+      "id": "MB-005",
+      "previous": "2026-12"
+    },
+    {
+      "budgets": {
+        "2028-02": 700000
+      },
+      "current": "2028-03",
+      "expected": 700000,
+      "fallback": 0,
+      "id": "MB-006",
+      "previous": "2028-02"
+    },
+    {
+      "budgets": {
+        "2026-01": 500000
+      },
+      "current": "2026-02",
+      "expected": 500000,
+      "fallback": 0,
+      "id": "MB-007",
+      "previous": "2026-01"
+    },
+    {
+      "budgets": {
+        "2026-08": 650000,
+        "2026-09": 0
+      },
+      "current": "2026-09",
+      "expected": 650000,
+      "fallback": 0,
+      "id": "MB-008",
+      "previous": "2026-08"
+    },
+    {
+      "budgets": {},
+      "current": "2026-09",
+      "expected": 0,
+      "fallback": 0,
+      "id": "MB-009",
+      "previous": "2026-08"
+    },
+    {
+      "budgets": {
+        "2026-08": 820000,
+        "2026-10": 900000
+      },
+      "current": "2026-09",
+      "expected": 820000,
+      "fallback": 500000,
+      "id": "MB-010",
+      "previous": "2026-08"
+    }
+  ],
+  "frozen": true,
+  "version": "MONTH-BOUNDARY-1.0"
+}
