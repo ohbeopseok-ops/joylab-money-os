@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "JoyLab Money OS",
+  "version": "1.0.0",
+  "identifier": "kr.joylab.moneyos",
+  "build": {
+    "frontendDist": "../dist",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "JoyLab Money OS V1.0",
+        "width": 430,
+        "height": 780,
+        "minWidth": 360,
+        "minHeight": 640,
+        "resizable": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": false
+  }
+}
