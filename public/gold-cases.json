@@ -1,0 +1,186 @@
+{
+  "cases": [
+    {
+      "day": 5,
+      "expected": "SAFE",
+      "id": "GOLD-001",
+      "projected": 60,
+      "rule": "R7",
+      "threeDay": false,
+      "usage": 20
+    },
+    {
+      "day": 15,
+      "expected": "SAFE",
+      "id": "GOLD-002",
+      "projected": 89,
+      "rule": "R7",
+      "threeDay": false,
+      "usage": 49
+    },
+    {
+      "day": 10,
+      "expected": "WATCH",
+      "id": "GOLD-003",
+      "projected": 70,
+      "rule": "R6",
+      "threeDay": false,
+      "usage": 50
+    },
+    {
+      "day": 16,
+      "expected": "SAFE",
+      "id": "GOLD-004",
+      "projected": 70,
+      "rule": "R7",
+      "threeDay": false,
+      "usage": 50
+    },
+    {
+      "day": 20,
+      "expected": "WATCH",
+      "id": "GOLD-005",
+      "projected": 91,
+      "rule": "R5",
+      "threeDay": false,
+      "usage": 60
+    },
+    {
+      "day": 25,
+      "expected": "SAFE",
+      "id": "GOLD-006",
+      "projected": 90,
+      "rule": "R7",
+      "threeDay": false,
+      "usage": 79
+    },
+    {
+      "day": 25,
+      "expected": "WATCH",
+      "id": "GOLD-007",
+      "projected": 80,
+      "rule": "R4",
+      "threeDay": false,
+      "usage": 80
+    },
+    {
+      "day": 28,
+      "expected": "WATCH",
+      "id": "GOLD-008",
+      "projected": 100,
+      "rule": "R4",
+      "threeDay": false,
+      "usage": 95
+    },
+    {
+      "day": 28,
+      "expected": "WATCH",
+      "id": "GOLD-009",
+      "projected": 109,
+      "rule": "R4",
+      "threeDay": false,
+      "usage": 99
+    },
+    {
+      "day": 28,
+      "expected": "BRAKE",
+      "id": "GOLD-010",
+      "projected": 111,
+      "rule": "R2",
+      "threeDay": false,
+      "usage": 99
+    },
+    {
+      "day": 30,
+      "expected": "BRAKE",
+      "id": "GOLD-011",
+      "projected": 100,
+      "rule": "R1",
+      "threeDay": false,
+      "usage": 100
+    },
+    {
+      "day": 20,
+      "expected": "BRAKE",
+      "id": "GOLD-012",
+      "projected": 120,
+      "rule": "R1",
+      "threeDay": false,
+      "usage": 120
+    },
+    {
+      "day": 12,
+      "expected": "BRAKE",
+      "id": "GOLD-013",
+      "projected": 70,
+      "rule": "R3",
+      "threeDay": true,
+      "usage": 40
+    },
+    {
+      "day": 20,
+      "expected": "BRAKE",
+      "id": "GOLD-014",
+      "projected": 120,
+      "rule": "R2",
+      "threeDay": true,
+      "usage": 85
+    },
+    {
+      "day": 20,
+      "expected": "BRAKE",
+      "id": "GOLD-015",
+      "projected": 130,
+      "rule": "R1",
+      "threeDay": true,
+      "usage": 100
+    },
+    {
+      "day": 30,
+      "expected": "WATCH",
+      "id": "GOLD-016",
+      "projected": 90.1,
+      "rule": "R5",
+      "threeDay": false,
+      "usage": 79.9
+    },
+    {
+      "day": 10,
+      "expected": "SAFE",
+      "id": "GOLD-017",
+      "projected": 90,
+      "rule": "R7",
+      "threeDay": false,
+      "usage": 49.9
+    },
+    {
+      "day": 15,
+      "expected": "WATCH",
+      "id": "GOLD-018",
+      "projected": 90,
+      "rule": "R6",
+      "threeDay": false,
+      "usage": 50
+    },
+    {
+      "day": 15,
+      "expected": "BRAKE",
+      "id": "GOLD-019",
+      "projected": 111,
+      "rule": "R2",
+      "threeDay": false,
+      "usage": 80
+    },
+    {
+      "day": 31,
+      "expected": "BRAKE",
+      "id": "GOLD-020",
+      "projected": 80,
+      "rule": "R1",
+      "threeDay": false,
+      "usage": 100
+    }
+  ],
+  "frozen": true,
+  "version": "MDE-1.0"
+}
