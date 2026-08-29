@@ -1,0 +1,495 @@
+{
+  "cases": [
+    {
+      "budgets": {
+        "2026-08": 800000
+      },
+      "current": "2026-09",
+      "expected": 800000,
+      "fallback": 0,
+      "id": "BOUND-001",
+      "previous": "2026-08",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2026-08": 800000,
+        "2026-09": 750000
+      },
+      "current": "2026-09",
+      "expected": 750000,
+      "fallback": 0,
+      "id": "BOUND-002",
+      "previous": "2026-08",
+      "type": "rollover"
+    },
+    {
+      "budgets": {},
+      "current": "2026-09",
+      "expected": 600000,
+      "fallback": 600000,
+      "id": "BOUND-003",
+      "previous": "2026-08",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2026-12": 900000
+      },
+      "current": "2027-01",
+      "expected": 900000,
+      "fallback": 0,
+      "id": "BOUND-004",
+      "previous": "2026-12",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2027-01": 850000
+      },
+      "current": "2027-01",
+      "expected": 850000,
+      "fallback": 700000,
+      "id": "BOUND-005",
+      "previous": "2026-12",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2028-02": 700000
+      },
+      "current": "2028-03",
+      "expected": 700000,
+      "fallback": 0,
+      "id": "BOUND-006",
+      "previous": "2028-02",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2026-01": 500000
+      },
+      "current": "2026-02",
+      "expected": 500000,
+      "fallback": 0,
+      "id": "BOUND-007",
+      "previous": "2026-01",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2026-08": 650000,
+        "2026-09": 0
+      },
+      "current": "2026-09",
+      "expected": 650000,
+      "fallback": 0,
+      "id": "BOUND-008",
+      "previous": "2026-08",
+      "type": "rollover"
+    },
+    {
+      "budgets": {},
+      "current": "2026-09",
+      "expected": 0,
+      "fallback": 0,
+      "id": "BOUND-009",
+      "previous": "2026-08",
+      "type": "rollover"
+    },
+    {
+      "budgets": {
+        "2026-08": 820000,
+        "2026-10": 900000
+      },
+      "current": "2026-09",
+      "expected": 820000,
+      "fallback": 500000,
+      "id": "BOUND-010",
+      "previous": "2026-08",
+      "type": "rollover"
+    },
+    {
+      "delta": 1,
+      "expected": "2026-09",
+      "id": "MONTH-001",
+      "type": "shift",
+      "ym": "2026-08"
+    },
+    {
+      "delta": -1,
+      "expected": "2026-07",
+      "id": "MONTH-002",
+      "type": "shift",
+      "ym": "2026-08"
+    },
+    {
+      "delta": 1,
+      "expected": "2027-01",
+      "id": "MONTH-003",
+      "type": "shift",
+      "ym": "2026-12"
+    },
+    {
+      "delta": -1,
+      "expected": "2026-12",
+      "id": "MONTH-004",
+      "type": "shift",
+      "ym": "2027-01"
+    },
+    {
+      "delta": 1,
+      "expected": "2028-03",
+      "id": "MONTH-005",
+      "type": "shift",
+      "ym": "2028-02"
+    },
+    {
+      "delta": -1,
+      "expected": "2028-02",
+      "id": "MONTH-006",
+      "type": "shift",
+      "ym": "2028-03"
+    },
+    {
+      "delta": 12,
+      "expected": "2027-01",
+      "id": "MONTH-007",
+      "type": "shift",
+      "ym": "2026-01"
+    },
+    {
+      "delta": -12,
+      "expected": "2025-12",
+      "id": "MONTH-008",
+      "type": "shift",
+      "ym": "2026-12"
+    },
+    {
+      "delta": 6,
+      "expected": "2026-12",
+      "id": "MONTH-009",
+      "type": "shift",
+      "ym": "2026-06"
+    },
+    {
+      "delta": -6,
+      "expected": "2025-12",
+      "id": "MONTH-010",
+      "type": "shift",
+      "ym": "2026-06"
+    },
+    {
+      "amount": 10000,
+      "existing": {},
+      "expected": {
+        "식비": 10000
+      },
+      "id": "TAG-001",
+      "tag": "식비",
+      "type": "tag"
+    },
+    {
+      "amount": 5000,
+      "existing": {
+        "식비": 10000
+      },
+      "expected": {
+        "식비": 15000
+      },
+      "id": "TAG-002",
+      "tag": "식비",
+      "type": "tag"
+    },
+    {
+      "amount": 5000,
+      "existing": {
+        "식비": 10000
+      },
+      "expected": {
+        "쇼핑": 5000,
+        "식비": 10000
+      },
+      "id": "TAG-003",
+      "tag": "쇼핑",
+      "type": "tag"
+    },
+    {
+      "amount": 2000,
+      "existing": {
+        "교통": 3000
+      },
+      "expected": {
+        "교통": 3000,
+        "기타": 2000
+      },
+      "id": "TAG-004",
+      "tag": "기타",
+      "type": "tag"
+    },
+    {
+      "amount": 10000,
+      "existing": {},
+      "expected": {},
+      "id": "TAG-005",
+      "tag": null,
+      "type": "tag"
+    },
+    {
+      "amount": 6,
+      "existing": {
+        "교통": 3,
+        "기타": 4,
+        "쇼핑": 2,
+        "식비": 1
+      },
+      "expected": {
+        "교통": 3,
+        "기타": 10,
+        "쇼핑": 2,
+        "식비": 1
+      },
+      "id": "TAG-006",
+      "tag": "기타",
+      "type": "tag"
+    },
+    {
+      "amount": 0,
+      "existing": {
+        "식비": 100
+      },
+      "expected": {
+        "교통": 0,
+        "식비": 100
+      },
+      "id": "TAG-007",
+      "tag": "교통",
+      "type": "tag"
+    },
+    {
+      "amount": 1,
+      "existing": {
+        "쇼핑": 5000
+      },
+      "expected": {
+        "쇼핑": 5001
+      },
+      "id": "TAG-008",
+      "tag": "쇼핑",
+      "type": "tag"
+    },
+    {
+      "amount": 1,
+      "existing": {
+        "기타": 9999
+      },
+      "expected": {
+        "기타": 9999,
+        "식비": 1
+      },
+      "id": "TAG-009",
+      "tag": "식비",
+      "type": "tag"
+    },
+    {
+      "amount": 3000,
+      "existing": {
+        "교통": 2000,
+        "식비": 1000
+      },
+      "expected": {
+        "교통": 5000,
+        "식비": 1000
+      },
+      "id": "TAG-010",
+      "tag": "교통",
+      "type": "tag"
+    },
+    {
+      "closedMonths": [],
+      "expected": true,
+      "id": "CLOSE-001",
+      "type": "close",
+      "ym": "2026-08"
+    },
+    {
+      "closedMonths": [
+        "2026-08"
+      ],
+      "expected": false,
+      "id": "CLOSE-002",
+      "type": "close",
+      "ym": "2026-08"
+    },
+    {
+      "closedMonths": [
+        "2026-07"
+      ],
+      "expected": true,
+      "id": "CLOSE-003",
+      "type": "close",
+      "ym": "2026-08"
+    },
+    {
+      "closedMonths": [
+        "2026-08",
+        "2026-09"
+      ],
+      "expected": false,
+      "id": "CLOSE-004",
+      "type": "close",
+      "ym": "2026-09"
+    },
+    {
+      "closedMonths": [],
+      "expected": true,
+      "id": "CLOSE-005",
+      "type": "close",
+      "ym": "2027-01"
+    },
+    {
+      "closedMonths": [
+        "2026-12"
+      ],
+      "expected": true,
+      "id": "CLOSE-006",
+      "type": "close",
+      "ym": "2027-01"
+    },
+    {
+      "closedMonths": [
+        "2027-01"
+      ],
+      "expected": false,
+      "id": "CLOSE-007",
+      "type": "close",
+      "ym": "2027-01"
+    },
+    {
+      "closedMonths": [
+        "2028-02"
+      ],
+      "expected": false,
+      "id": "CLOSE-008",
+      "type": "close",
+      "ym": "2028-02"
+    },
+    {
+      "closedMonths": [
+        "2028-02"
+      ],
+      "expected": true,
+      "id": "CLOSE-009",
+      "type": "close",
+      "ym": "2028-03"
+    },
+    {
+      "closedMonths": [
+        "2026-08"
+      ],
+      "expected": true,
+      "id": "CLOSE-010",
+      "type": "close",
+      "ym": "2026-07"
+    },
+    {
+      "expected": null,
+      "id": "SCORE-001",
+      "oversRate": 0,
+      "projectedRatio": 0.7,
+      "recordCount": 2,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 100,
+      "id": "SCORE-002",
+      "oversRate": 0,
+      "projectedRatio": 0.7,
+      "recordCount": 3,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 100,
+      "id": "SCORE-003",
+      "oversRate": 0,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 90,
+      "id": "SCORE-004",
+      "oversRate": 0.4,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 94,
+      "id": "SCORE-005",
+      "oversRate": 0,
+      "projectedRatio": 1.05,
+      "recordCount": 10,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 78,
+      "id": "SCORE-006",
+      "oversRate": 0.4,
+      "projectedRatio": 1.1,
+      "recordCount": 10,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 61,
+      "id": "SCORE-007",
+      "oversRate": 0,
+      "projectedRatio": 1.2,
+      "recordCount": 10,
+      "threeDay": true,
+      "type": "score"
+    },
+    {
+      "expected": 51,
+      "id": "SCORE-008",
+      "oversRate": 0.4,
+      "projectedRatio": 1.2,
+      "recordCount": 10,
+      "threeDay": true,
+      "type": "score"
+    },
+    {
+      "expected": 15,
+      "id": "SCORE-009",
+      "oversRate": 1,
+      "projectedRatio": 1.5,
+      "recordCount": 30,
+      "threeDay": false,
+      "type": "score"
+    },
+    {
+      "expected": 0,
+      "id": "SCORE-010",
+      "oversRate": 1,
+      "projectedRatio": 2,
+      "recordCount": 30,
+      "threeDay": true,
+      "type": "score"
+    }
+  ],
+  "frozen": true,
+  "groups": {
+    "boundary": 10,
+    "close": 10,
+    "month": 10,
+    "score": 10,
+    "tag": 10
+  },
+  "version": "V1.0-FINAL-REGRESSION-50"
+}
