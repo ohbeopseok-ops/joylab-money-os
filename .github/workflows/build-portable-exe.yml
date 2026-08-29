@@ -1,0 +1,56 @@
+name: Build Portable EXE
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "src/**"
+      - "public/**"
+      - "index.html"
+      - "package.json"
+      - "vite.config.ts"
+      - "src-tauri/**"
+      - ".github/workflows/build-portable-exe.yml"
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install web dependencies
+        run: npm install
+
+      - name: Build web app
+        run: npm run build
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build Portable EXE
+        shell: pwsh
+        run: cargo build --release --manifest-path src-tauri/Cargo.toml
+
+      - name: Prepare artifact
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path dist-portable
+          Copy-Item "src-tauri\target\release\joylab-money-os.exe" "dist-portable\JoyLab_Money_OS_V1.0_Portable.exe"
+
+      - name: Upload Portable EXE
+        uses: actions/upload-artifact@v4
+        with:
+          name: JoyLab_Money_OS_V1.0_Portable
+          path: dist-portable/JoyLab_Money_OS_V1.0_Portable.exe
+          if-no-files-found: error
+          retention-days: 30
