@@ -1,0 +1,246 @@
+{
+  "cases": [
+    {
+      "expected": null,
+      "id": "SCORE-001",
+      "oversRate": 0,
+      "projectedRatio": 0.7,
+      "recordCount": 2,
+      "threeDay": false
+    },
+    {
+      "expected": 100,
+      "id": "SCORE-002",
+      "oversRate": 0,
+      "projectedRatio": 0.7,
+      "recordCount": 3,
+      "threeDay": false
+    },
+    {
+      "expected": 95,
+      "id": "SCORE-003",
+      "oversRate": 0.2,
+      "projectedRatio": 0.8,
+      "recordCount": 5,
+      "threeDay": false
+    },
+    {
+      "expected": 90,
+      "id": "SCORE-004",
+      "oversRate": 0.4,
+      "projectedRatio": 0.9,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 100,
+      "id": "SCORE-005",
+      "oversRate": 0,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 95,
+      "id": "SCORE-006",
+      "oversRate": 0.2,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 90,
+      "id": "SCORE-007",
+      "oversRate": 0.4,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 85,
+      "id": "SCORE-008",
+      "oversRate": 0.6,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 80,
+      "id": "SCORE-009",
+      "oversRate": 0.8,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 75,
+      "id": "SCORE-010",
+      "oversRate": 1,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 94,
+      "id": "SCORE-011",
+      "oversRate": 0,
+      "projectedRatio": 1.05,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 84,
+      "id": "SCORE-012",
+      "oversRate": 0.4,
+      "projectedRatio": 1.05,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 88,
+      "id": "SCORE-013",
+      "oversRate": 0,
+      "projectedRatio": 1.1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 78,
+      "id": "SCORE-014",
+      "oversRate": 0.4,
+      "projectedRatio": 1.1,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 76,
+      "id": "SCORE-015",
+      "oversRate": 0,
+      "projectedRatio": 1.2,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 66,
+      "id": "SCORE-016",
+      "oversRate": 0.4,
+      "projectedRatio": 1.2,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 64,
+      "id": "SCORE-017",
+      "oversRate": 0,
+      "projectedRatio": 1.3,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 54,
+      "id": "SCORE-018",
+      "oversRate": 0.4,
+      "projectedRatio": 1.3,
+      "recordCount": 10,
+      "threeDay": false
+    },
+    {
+      "expected": 85,
+      "id": "SCORE-019",
+      "oversRate": 0,
+      "projectedRatio": 0.9,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 75,
+      "id": "SCORE-020",
+      "oversRate": 0.4,
+      "projectedRatio": 0.9,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 85,
+      "id": "SCORE-021",
+      "oversRate": 0,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 75,
+      "id": "SCORE-022",
+      "oversRate": 0.4,
+      "projectedRatio": 1,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 73,
+      "id": "SCORE-023",
+      "oversRate": 0,
+      "projectedRatio": 1.1,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 63,
+      "id": "SCORE-024",
+      "oversRate": 0.4,
+      "projectedRatio": 1.1,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 61,
+      "id": "SCORE-025",
+      "oversRate": 0,
+      "projectedRatio": 1.2,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 51,
+      "id": "SCORE-026",
+      "oversRate": 0.4,
+      "projectedRatio": 1.2,
+      "recordCount": 10,
+      "threeDay": true
+    },
+    {
+      "expected": 40,
+      "id": "SCORE-027",
+      "oversRate": 0,
+      "projectedRatio": 1.5,
+      "recordCount": 30,
+      "threeDay": false
+    },
+    {
+      "expected": 15,
+      "id": "SCORE-028",
+      "oversRate": 1,
+      "projectedRatio": 1.5,
+      "recordCount": 30,
+      "threeDay": false
+    },
+    {
+      "expected": 40,
+      "id": "SCORE-029",
+      "oversRate": 0,
+      "projectedRatio": 2,
+      "recordCount": 30,
+      "threeDay": false
+    },
+    {
+      "expected": 0,
+      "id": "SCORE-030",
+      "oversRate": 1,
+      "projectedRatio": 2,
+      "recordCount": 30,
+      "threeDay": true
+    }
+  ],
+  "frozen": true,
+  "version": "MSE-1.0"
+}
